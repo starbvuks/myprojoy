@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 import {MenuOutlined} from "@ant-design/icons";
+import {ShoppingCartOutlined} from "@ant-design/icons";
 
 export const Container = styled.div`
-  background-color: #5d98a6;
+  background-color: #4a5e6e;
   height: 10vh;
 `;
 
@@ -15,21 +16,27 @@ export const NavbarContent = styled.div`
 `;
 
 export const Logo = styled.div`
-  padding: 7px;
+  display: flex;
+  align-items: center;
+  margin: 3px 0 0 7px;
 `;
 
 export const LogoImg = styled.img`
-  width: 50px;
+  width: 55px;
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  display: flex;
+  margin: 0 15px 0 0;
+  align-items: center;
+  color: #e9ddea;
+`;
 
 export const StyledMenuOutlined = styled(MenuOutlined)`
-  background-color: #fae0be;
-  width: 20px;
-  color: #5d98a6;
   font-size: 20px;
-  margin: 0 20px 5px 0;
-  padding: 6px;
-  border-radius: 10px;
+`;
+
+export const StyledShoppingCartOutlined = styled(ShoppingCartOutlined)`
+  font-size: 25px;
+  margin: 0 15px 0 0;
 `;

@@ -1,5 +1,5 @@
 import React from "react";
-import LogoMain from ".././img/logo.png";
+import LogoMain from ".././img/logo-light-blue.png";
 
 import {
   Container,
@@ -8,6 +8,7 @@ import {
   LogoImg,
   Content,
   StyledMenuOutlined,
+  StyledShoppingCartOutlined,
 } from "./stylesNavbar.js";
 
 function Navbar() {
@@ -18,6 +19,7 @@ function Navbar() {
           <LogoImg src={LogoMain} alt="logo" />
         </Logo>
         <Content>
+          <StyledShoppingCartOutlined />
           <StyledMenuOutlined />
         </Content>
       </NavbarContent>
