@@ -24,19 +24,19 @@ function Bottom(props) {
       <Content>
         <Blue>
           <BlueBubble src={blueBubble} alt="blue" />
-          <Span>happy individual</Span>
+          <Span style={{left: "25px"}}>happy individual</Span>
           <Only style={{color: "#C4E0E6"}}>ONLY</Only>
           <Price>{props.bluePrice}</Price>
         </Blue>
         <Orange>
           <OrangeBubble src={orangeBubble} alt="orange" />
-          <Span>happy family</Span>
+          <Span style={{left: "32px"}}>happy family</Span>
           <Only style={{color: "#FAE0BE"}}>SAVES</Only>
           <Price>{props.orangePrice}</Price>
         </Orange>
         <Green>
           <GreenBubble src={greenBubble} alt="green" />
-          <Span>super family</Span>
+          <Span style={{left: "32px"}}>super family</Span>
           <Only style={{color: "#D6F3E8"}}>SAVES</Only>
           <Price>{props.greenPrice}</Price>
         </Green>
