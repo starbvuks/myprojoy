@@ -1,28 +1,16 @@
 import React, {useState} from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
-import TodoList from "./components/TodoList.jsx";
-import Input from "./components/Input.jsx";
+import Home from "./Home.jsx";
+
+import {BrowserRouter as Router, Link, Route} from "react-router-dom";
 import "./App.css";
 
 function App() {
-  const [value, setValue] = useState([]);
-  const [input, setInput] = useState([]);
-
-  function handleEvent(e) {
-    setValue(e.target.value);
-  }
-
-  function handleSubmit(e) {
-    setInput([...input, value]);
-  }
   return (
     <div class="main">
-      <TodoList
-        handleSubmit={handleSubmit}
-        handleEvent={handleEvent}
-        value={value}
-      />
-      <Input input={input} />
+      <Router>
+        <Navbar />
+      </Router>
     </div>
   );
 }

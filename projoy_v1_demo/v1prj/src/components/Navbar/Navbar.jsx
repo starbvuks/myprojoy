@@ -1,5 +1,4 @@
 import React from "react";
-import LogoMain from ".././img/logo-light-blue.png";
 
 import {
   Container,
@@ -15,13 +14,11 @@ function Navbar() {
   return (
     <Container>
       <NavbarContent>
-        <Logo>
-          <LogoImg src={LogoMain} alt="logo" />
-        </Logo>
-        <Content>
-          <StyledShoppingCartOutlined />
-          <StyledMenuOutlined />
-        </Content>
+        <StyledMenuOutlined />
+        <LogoContainer>
+          <Logo>Projoy</Logo>
+        </LogoContainer>
+        <StyledShoppingCartOutlined />
       </NavbarContent>
     </Container>
   );

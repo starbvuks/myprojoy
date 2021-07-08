@@ -1,5 +1,26 @@
+@font-face {
+  font-family: "more_sugarregular";
+  src: url("fonts/moresugar-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "more_sugarthin";
+  src: url("fonts/moresugar-thin-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "chewyregular";
+  src: url("fonts/chewy-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #ecf1ea;
+  background-color: #f2f2f2;
 }

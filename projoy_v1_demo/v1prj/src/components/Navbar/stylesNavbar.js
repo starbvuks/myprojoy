@@ -13,6 +13,9 @@ export const NavbarContent = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin: 0 15px 0 0;
+  align-items: center;
+  color: #e9ddea;
 `;
 
 export const Logo = styled.div`
@@ -23,13 +26,6 @@ export const Logo = styled.div`
 
 export const LogoImg = styled.img`
   width: 55px;
-`;
-
-export const Content = styled.div`
-  display: flex;
-  margin: 0 15px 0 0;
-  align-items: center;
-  color: #e9ddea;
 `;
 
 export const StyledMenuOutlined = styled(MenuOutlined)`
