@@ -48,6 +48,19 @@ export const Only = styled.span`
   left: 38%;
 `;
 
+export const Price = styled.span`
+  position: absolute;
+  font-family: chewyregular;
+  font-size: 3.5vh;
+  text-align: center;
+  padding: 0 35px 0 0;
+  color: #f2f2f2;
+  line-height: 1.2;
+  z-index: 999;
+  top: 62%;
+  left: 29%;
+`;
+
 export const BlueBubble = styled.img`
   width: 100%;
 `;

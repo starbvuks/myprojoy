@@ -20,7 +20,7 @@ function Home() {
         <ArrowLeft src={leftArrow} alt="left-arrow" />
         <ArrowRight src={rightArrow} alt="right-arrow" />
       </MiddleIcons>
-      <Bottom />
+      <Bottom bluePrice="₹ 449" orangePrice="₹ 100" greenPrice="₹ 209" />
     </Main>
   );
 }
