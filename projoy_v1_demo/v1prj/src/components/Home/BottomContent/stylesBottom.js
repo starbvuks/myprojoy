@@ -41,9 +41,10 @@ export const Only = styled.span`
   font-family: "Fredoka One", cursive;
   letter-spacing: 1px;
   font-size: 50%;
+  padding: 2px;
   text-align: center;
   z-index: 999;
-  top: 52%;
+  top: 50%;
   left: 38%;
 `;
 

@@ -23,14 +23,14 @@ function Bottom(props) {
   return (
     <Main>
       <Content>
-        <Blue>
-          <Link to="/hpy-ind">
+        <Link to="/hpy-ind">
+          <Blue>
             <BlueBubble src={blueBubble} alt="blue" />
-          </Link>
-          <Span style={{left: "25px"}}>happy individual</Span>
-          <Only style={{color: "#C4E0E6"}}>ONLY</Only>
-          <Price>{props.bluePrice}</Price>
-        </Blue>
+            <Span style={{left: "25px"}}>happy individual</Span>
+            <Only style={{color: "#C4E0E6"}}>ONLY</Only>
+            <Price>{props.bluePrice}</Price>
+          </Blue>
+        </Link>
         <Orange>
           <OrangeBubble src={orangeBubble} alt="orange" />
           <Span style={{left: "32px"}}>happy family</Span>
