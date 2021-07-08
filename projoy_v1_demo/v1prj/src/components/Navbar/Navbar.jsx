@@ -1,24 +1,24 @@
 import React from "react";
+import logo from "../../images/logo/mainlogo.png";
+import menu from "../../images/iconpack-projoy/1.png";
+import cart from "../../images/iconpack-projoy/2.png";
+
+import NavbarLogo from "./NavbarLogo";
 
 import {
   Container,
   NavbarContent,
-  Logo,
-  LogoImg,
-  Content,
-  StyledMenuOutlined,
-  StyledShoppingCartOutlined,
+  StyledMenu,
+  StyledShoppingCart,
 } from "./stylesNavbar.js";
 
 function Navbar() {
   return (
     <Container>
       <NavbarContent>
-        <StyledMenuOutlined />
-        <LogoContainer>
-          <Logo>Projoy</Logo>
-        </LogoContainer>
-        <StyledShoppingCartOutlined />
+        <StyledMenu src={menu} alt="menu-icon" />
+        <NavbarLogo />
+        <StyledShoppingCart src={cart} alt="cart-icon" />
       </NavbarContent>
     </Container>
   );
