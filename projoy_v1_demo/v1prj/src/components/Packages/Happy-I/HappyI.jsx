@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   Main,
   Blue,
@@ -12,8 +12,17 @@ import {
 import ProductCard from "../ProductCard/ProductCard.jsx";
 
 import blueBubble from "../../../assets/images/iconpack-projoy/5.png";
+import blueEllipse from "../../../assets/images/iconpack-projoy/8.png";
+import orangeEllipse from "../../../assets/images/iconpack-projoy/9.png";
+import greenEllipse from "../../../assets/images/iconpack-projoy/10.png";
+
+import vanilla from "../../../assets/images/products/vanilla-transparent.png";
+import chocolate from "../../../assets/images/products/chocolate-transparent.png";
+import zerosug from "../../../assets/images/products/zerosugar-transparent.png";
 
 function HappyI() {
+  const [products, setProducts] = useState([]);
+
   return (
     <Main>
       <Blue>
@@ -25,7 +34,17 @@ function HappyI() {
       <Sub>
         pick any <span style={{color: "#FFCC7A"}}>one</span> pack
       </Sub>
-      <ProductCard />
+      <ProductCard
+        vanilla="VANILLA"
+        choc="CHOCOLATE"
+        zerosug="ZERO SUGAR"
+        bE={blueEllipse}
+        oE={orangeEllipse}
+        gE={greenEllipse}
+        vanillaImg={vanilla}
+        chocimg={chocolate}
+        zerosugImg={zerosug}
+      />
     </Main>
   );
 }
