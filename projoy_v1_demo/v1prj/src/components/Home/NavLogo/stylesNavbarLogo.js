@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const Container = styled.div``;
+
 export const Main = styled.div`
   display: flex;
   flex-direction: column;
@@ -7,16 +9,15 @@ export const Main = styled.div`
   justify-content: flex-start;
   background-color: #85987d;
   border-radius: 0 0 20px 20px;
-  width: 50%;
-  height: 40vh;
+  width: 200px;
+  height: 100%;
 `;
 
-export const Logo = styled.div`
-  display: flex;
-`;
+export const Logo = styled.div``;
 
 export const LogoImg = styled.img`
   width: 200px;
+  padding-top: 10px;
 `;
 
 export const ForText = styled.span`
@@ -29,5 +30,6 @@ export const ForText = styled.span`
 export const HappyText = styled.span`
   font-family: "more_sugarregular";
   font-size: 18pt;
+  padding-bottom: 30px;
   color: #ffcc7a;
 `;
