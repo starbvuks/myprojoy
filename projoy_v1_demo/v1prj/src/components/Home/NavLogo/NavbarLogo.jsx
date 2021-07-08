@@ -8,11 +8,12 @@ import {
   HappyText,
 } from "./stylesNavbarLogo";
 
+import "./navlogo.css";
 import logo from "../../../assets/images/logo/mainlogo.png";
 
 function NavbarLogo() {
   return (
-    <Container>
+    <Container className="navbar-logo">
       <Main>
         <Logo>
           <LogoImg src={logo} alt="logo" />
