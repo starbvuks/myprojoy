@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-import {MenuOutlined} from "@ant-design/icons";
-import {ShoppingCartOutlined} from "@ant-design/icons";
-
 export const Container = styled.div`
   height: 10vh;
 `;

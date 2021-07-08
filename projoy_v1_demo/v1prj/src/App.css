@@ -1,20 +1,20 @@
 @font-face {
   font-family: "more_sugarregular";
-  src: url("fonts/moresugar-regular-webfont.woff2") format("woff2");
+  src: url("assets/fonts/moresugar-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "more_sugarthin";
-  src: url("fonts/moresugar-thin-webfont.woff2") format("woff2");
+  src: url("assets/fonts/moresugar-thin-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "chewyregular";
-  src: url("fonts/chewy-regular-webfont.woff2") format("woff2");
+  src: url("assets/fonts/chewy-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }

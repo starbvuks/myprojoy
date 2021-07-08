@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../images/logo/mainlogo.png";
-import menu from "../../images/iconpack-projoy/1.png";
-import cart from "../../images/iconpack-projoy/2.png";
+import logo from "../../assets/images/logo/mainlogo.png";
+import menu from "../../assets/images/iconpack-projoy/1.png";
+import cart from "../../assets/images/iconpack-projoy/2.png";
 
 import NavbarLogo from "./NavbarLogo";
 
