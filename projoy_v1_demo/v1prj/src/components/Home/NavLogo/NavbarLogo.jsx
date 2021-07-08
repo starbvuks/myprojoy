@@ -1,7 +1,7 @@
 import React from "react";
 import {Main, Logo, LogoImg, ForText, HappyText} from "./stylesNavbarLogo";
 
-import logo from "../../images/logo/mainlogo.png";
+import logo from "../../../assets/images/logo/mainlogo.png";
 
 function NavbarLogo() {
   return (

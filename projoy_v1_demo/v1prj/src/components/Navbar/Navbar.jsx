@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo/mainlogo.png";
 import menu from "../../assets/images/iconpack-projoy/1.png";
 import cart from "../../assets/images/iconpack-projoy/2.png";
 
-import NavbarLogo from "./NavbarLogo";
+import NavbarLogo from "../Home/NavLogo/NavbarLogo.jsx";
 
 import {
   Container,
