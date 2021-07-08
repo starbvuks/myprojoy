@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
-  margin-top: 315px;
+  margin-top: 300px;
 `;
 
 export const Content = styled.div``;
