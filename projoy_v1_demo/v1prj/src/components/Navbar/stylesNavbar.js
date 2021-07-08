@@ -16,10 +16,10 @@ export const NavbarContent = styled.div`
 
 export const StyledMenu = styled.img`
   width: 30px;
-  padding: 8px 0 0 10px;
+  padding: 12px 0 0 12px;
 `;
 
 export const StyledShoppingCart = styled.img`
-  padding: 8px 10px 0 0;
+  padding: 12px 12px 0 0;
   width: 30px;
 `;
