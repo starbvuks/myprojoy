@@ -13,6 +13,7 @@ import {
   Only,
   Price,
 } from "./stylesBottom.js";
+import {Link} from "react-router-dom";
 
 import blueBubble from "../../../assets/images/iconpack-projoy/5.png";
 import orangeBubble from "../../../assets/images/iconpack-projoy/6.png";
@@ -23,7 +24,9 @@ function Bottom(props) {
     <Main>
       <Content>
         <Blue>
-          <BlueBubble src={blueBubble} alt="blue" />
+          <Link to="/hpy-ind">
+            <BlueBubble src={blueBubble} alt="blue" />
+          </Link>
           <Span style={{left: "25px"}}>happy individual</Span>
           <Only style={{color: "#C4E0E6"}}>ONLY</Only>
           <Price>{props.bluePrice}</Price>
