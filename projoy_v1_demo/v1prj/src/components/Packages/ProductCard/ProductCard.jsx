@@ -14,10 +14,17 @@ function ProductCard(props) {
     <div>
       <Main>
         <ProductSection>
-          <ProductImg src={props.vanillaImg} />
+          <ProductImg src={props.zerosugImg} />
           <BackEllipse src={props.bE} />
           <ProductDetails>
-            <ProductName>{props.vanilla}</ProductName>
+            <ProductName>{props.zerosug}</ProductName>
+          </ProductDetails>
+        </ProductSection>
+        <ProductSection green>
+          <ProductImg src={props.vanillaImg} />
+          <BackEllipse src={props.gE} />
+          <ProductDetails>
+            <ProductName green>{props.vanilla}</ProductName>
           </ProductDetails>
         </ProductSection>
       </Main>

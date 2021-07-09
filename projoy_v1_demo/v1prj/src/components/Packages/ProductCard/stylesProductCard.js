@@ -3,28 +3,30 @@ import styled from "styled-components";
 export const Main = styled.div`
   display: flex;
   flex-direction: column;
-
   margin: 8% 0 0 0;
-  width: 50%;
+  width: 100%;
 `;
 
 export const ProductSection = styled.div`
   position: relative;
   justify-content: center;
   display: flex;
+  padding: 20px 0 20px 0;
+  background-color: ${(props) => (props.green ? "#98E577" : "#A0E2F2")};
 `;
 
 export const ProductImg = styled.img`
-  width: 100%;
+  width: 50%;
+  left: 0;
   z-index: 99;
-  margin: 0 0 0 30%;
 `;
 
 export const BackEllipse = styled.img`
   position: absolute;
-  width: 200px;
-  bottom: 10px;
-  z-index: -1;
+  width: 50%;
+  left: 15px;
+  top: 0;
+  z-index: 1;
 `;
 
 export const ProductDetails = styled.div`
@@ -34,5 +36,8 @@ export const ProductDetails = styled.div`
 `;
 
 export const ProductName = styled.p`
-  color: black;
+  font-family: more_sugarregular;
+  font-size: 18pt;
+  color: #5d98a6;
+  color: ${(props) => (props.green ? "#58907F" : "#5d98a6")};
 `;

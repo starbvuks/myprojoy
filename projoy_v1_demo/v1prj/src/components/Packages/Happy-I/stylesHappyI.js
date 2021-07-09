@@ -42,7 +42,7 @@ export const Title = styled.p`
 `;
 
 export const Sub = styled.p`
-  font-family: "Balsamiq Sans", cursive;
+  font-family: "Staatliches", cursive;
   font-weight: 400;
   text-align: center;
   font-size: 18pt;
