@@ -1,18 +1,21 @@
 [
   {
     "name": "Zero Sugar",
+    "price": "₹450",
     "ellipse": "./products/8.png",
     "product_img": "./products/zerosugar-transparent.png",
     "color": "#5D98A6"
   },
   {
     "name": "Vanilla",
+    "price": "₹399",
     "ellipse": "./products/9.png",
     "product_img": "./products/vanilla-transparent.png",
     "color": "#58907F"
   },
   {
     "name": "Chocolate",
+    "price": "₹399",
     "ellipse": "./products/11.png",
     "product_img": "./products/chocolate-transparent.png",
     "color": "#F27984"

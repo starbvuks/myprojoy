@@ -7,12 +7,14 @@ import {
   BackEllipse,
   ProductDetails,
   ProductName,
+  Price,
   AddToCart,
   AddText,
+  PlusOutlinedIcon,
   ShoppingTwoToneIcon,
 } from "./stylesProductCard.js";
 
-function ProductCard({name, ellipse, product_img, color}) {
+function ProductCard({name, price, ellipse, product_img, color}) {
   return (
     <div>
       <Main>
@@ -21,6 +23,7 @@ function ProductCard({name, ellipse, product_img, color}) {
           <BackEllipse src={ellipse} />
           <ProductDetails>
             <ProductName style={{color: color}}>{name}</ProductName>
+            <Price style={{color: color}}>{price}</Price>
             <AddToCart>
               <AddText>Add To Cart: </AddText>
               <ShoppingTwoToneIcon twoToneColor="#5d98a6" />

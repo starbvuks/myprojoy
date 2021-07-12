@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ShoppingCartOutlined, ShoppingTwoTone} from "@ant-design/icons";
+import {PlusOutlined, ShoppingTwoTone} from "@ant-design/icons";
 
 export const Main = styled.div`
   display: flex;
@@ -29,13 +29,24 @@ export const BackEllipse = styled.img`
   z-index: 1;
 `;
 
-export const ProductDetails = styled.div``;
+export const ProductDetails = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export const ProductName = styled.p`
   font-family: more_sugarregular;
-  font-size: 18pt;
+  font-size: 20pt;
   color: #5d98a6;
 `;
+
+export const Price = styled.p`
+  font-family: more_sugarregular;
+  font-size: 14pt;
+  margin-top: -30px;
+  color: #5d98a6;
+`;
+
 export const AddToCart = styled.div`
   display: flex;
   align-items: center;
@@ -45,10 +56,12 @@ export const AddToCart = styled.div`
 export const AddText = styled.span`
   font-family: more_sugarregular;
   font-size: 12pt;
-  color: #40736c;
+  color: #1b1b1bshop;
 `;
 
+export const PlusOutlinedIcon = styled(PlusOutlined)``;
+
 export const ShoppingTwoToneIcon = styled(ShoppingTwoTone)`
-  font-size: 36px;
+  font-size: 34px;
   padding-left: 10px;
 `;
