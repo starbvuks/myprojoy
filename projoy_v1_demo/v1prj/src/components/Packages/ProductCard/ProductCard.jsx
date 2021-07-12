@@ -7,7 +7,12 @@ import {
   BackEllipse,
   ProductDetails,
   ProductName,
+  AddToCart,
+  AddText,
+  ShoppingTwoToneIcon,
 } from "./stylesProductCard.js";
+
+import cart from "../../../assets/images/iconpack-projoy/2.png";
 
 function ProductCard(props) {
   return (
@@ -20,9 +25,13 @@ function ProductCard(props) {
             <ProductName style={{color: props.zerosugColor}}>
               {props.zerosug}
             </ProductName>
+            <AddToCart>
+              <AddText>Add To Cart: </AddText>
+              <ShoppingTwoToneIcon twoToneColor="#5d98a6" />
+            </AddToCart>
           </ProductDetails>
         </ProductSection>
-        <ProductSection>
+        {/* <ProductSection>
           <ProductImg src={props.vanillaImg} />
           <BackEllipse src={props.gE} />
           <ProductDetails>
@@ -39,7 +48,7 @@ function ProductCard(props) {
               {props.choc}
             </ProductName>
           </ProductDetails>
-        </ProductSection>
+        </ProductSection> */}
       </Main>
     </div>
   );
