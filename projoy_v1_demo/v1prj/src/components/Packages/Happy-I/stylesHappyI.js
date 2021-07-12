@@ -17,14 +17,14 @@ export const SpanTop = styled.span`
   position: absolute;
   font-family: more_sugarregular;
   font-size: 120%;
-  top: 50px;
+  top: 45px;
 `;
 
 export const SpanBot = styled.span`
   position: absolute;
   font-family: more_sugarregular;
   font-size: 120%;
-  top: 75px;
+  top: 70px;
 `;
 
 export const BlueBubble = styled.img`

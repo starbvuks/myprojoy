@@ -2,10 +2,12 @@ import React from "react";
 
 import {Main, Content, TopLine, MainLine} from "./stylesMiddle.js";
 
+import "./Middle.css";
+
 function Middle() {
   return (
     <Main>
-      <Content>
+      <Content className="main-content">
         <TopLine>GIVE YOU & YOUR FAMILY</TopLine>
         <MainLine>
           <span>Probiotic</span>
