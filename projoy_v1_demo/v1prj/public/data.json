@@ -13,8 +13,8 @@
   },
   {
     "name": "Chocolate",
-    "ellipse": "./products/10.png",
+    "ellipse": "./products/11.png",
     "product_img": "./products/chocolate-transparent.png",
-    "color": "#F2A285"
+    "color": "#F27984"
   }
 ]

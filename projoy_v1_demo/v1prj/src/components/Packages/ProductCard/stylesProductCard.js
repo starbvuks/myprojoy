@@ -4,14 +4,14 @@ import {ShoppingCartOutlined, ShoppingTwoTone} from "@ant-design/icons";
 export const Main = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 5% 0 0 0;
+  margin: 0 0 0 0;
   width: 100%;
 `;
 
 export const ProductSection = styled.div`
   position: relative;
   display: flex;
-  padding: 20px 0 20px 0;
+  padding: 0 0 20px 0;
 `;
 
 export const ProductImg = styled.img`
@@ -25,8 +25,7 @@ export const ProductImg = styled.img`
 export const BackEllipse = styled.img`
   position: absolute;
   width: 50%;
-  left: 5px;
-  top: 0;
+  bottom: 25px;
   z-index: 1;
 `;
 

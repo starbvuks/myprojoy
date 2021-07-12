@@ -36,6 +36,7 @@ export const BlueBubble = styled.img`
 
 export const TextContent = styled.div`
   background-color: #85a68e;
+  margin-bottom: 15%;
 `;
 
 export const Title = styled.p`
