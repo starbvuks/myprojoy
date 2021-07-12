@@ -34,13 +34,18 @@ export const BlueBubble = styled.img`
   position: absolute;
 `;
 
+export const TextContent = styled.div`
+  background-color: #85a68e;
+`;
+
 export const Title = styled.p`
   font-family: "Balsamiq Sans", cursive;
   font-weight: 700;
   text-align: center;
   font-size: 24pt;
-  color: #5d98a6;
-  margin: 40% 0 0 0;
+  color: #daf2ef;
+  padding: 10px;
+  margin: 45% 0 0 0;
 `;
 
 export const Sub = styled.p`
@@ -48,8 +53,9 @@ export const Sub = styled.p`
   font-weight: 400;
   text-align: center;
   font-size: 18pt;
-  color: #f97d87; //#f2a285
-  margin: 2% 0 0 0;
+  color: #eaf2e6; //#f2a285
+  padding-bottom: 10px;
+  margin: 0 0 0 0;
 `;
 
 export const ProductSection = styled.div``;

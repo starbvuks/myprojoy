@@ -5,6 +5,7 @@ import {
   BlueBubble,
   SpanTop,
   SpanBot,
+  TextContent,
   Title,
   Sub,
   ProductSection,
@@ -17,8 +18,8 @@ import blueEllipse from "../../../assets/images/iconpack-projoy/8.png";
 import greenEllipse from "../../../assets/images/iconpack-projoy/9.png";
 import orangeEllipse from "../../../assets/images/iconpack-projoy/10.png";
 
-import vanilla from "../../../assets/images/products/vanilla-shadow.png";
-import chocolate from "../../../assets/images/products/chocolate-shadow.png";
+import vanilla from "../../../assets/images/products/vanilla-transparent.png";
+import chocolate from "../../../assets/images/products/chocolate-transparent.png";
 import zerosug from "../../../assets/images/products/zerosugar-transparent.png";
 
 function HappyI() {
@@ -31,10 +32,12 @@ function HappyI() {
         <SpanTop>happy</SpanTop>
         <SpanBot> individual</SpanBot>
       </Blue>
-      <Title>Probiotic Ready Mix</Title>
-      <Sub>
-        [ pick any <span style={{color: "#F97D87"}}>one</span> pack ]
-      </Sub>
+      <TextContent>
+        <Title>Probiotic Ready Mix</Title>
+        <Sub>
+          [ pick any <span style={{color: "#F2DADA"}}>one</span> pack ]
+        </Sub>
+      </TextContent>
       <ProductSection>
         <ProductCard
           vanilla="VANILLA"

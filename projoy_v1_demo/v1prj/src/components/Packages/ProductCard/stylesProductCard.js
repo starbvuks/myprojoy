@@ -10,12 +10,11 @@ export const Main = styled.div`
 export const ProductSection = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-between;
   padding: 20px 0 20px 0;
 `;
 
 export const ProductImg = styled.img`
-  width: 50%;
+  width: 45%;
   z-index: 99;
   // background-color: #eef2ae;
   border-radius: 15px;
@@ -36,5 +35,4 @@ export const ProductName = styled.p`
   font-family: more_sugarregular;
   font-size: 18pt;
   color: #5d98a6;
-  margin: 0 25px 0 0;
 `;

@@ -15,7 +15,7 @@ function ProductCard(props) {
       <Main>
         <ProductSection>
           <ProductImg src={props.zerosugImg} />
-          {/* <BackEllipse src={props.bE} /> */}
+          <BackEllipse src={props.bE} />
           <ProductDetails>
             <ProductName style={{color: props.zerosugColor}}>
               {props.zerosug}
@@ -24,7 +24,7 @@ function ProductCard(props) {
         </ProductSection>
         <ProductSection>
           <ProductImg src={props.vanillaImg} />
-          {/* <BackEllipse src={props.gE} /> */}
+          <BackEllipse src={props.gE} />
           <ProductDetails>
             <ProductName style={{color: props.vanColor}}>
               {props.vanilla}
@@ -33,7 +33,7 @@ function ProductCard(props) {
         </ProductSection>
         <ProductSection>
           <ProductImg src={props.chocImg} />
-          {/* <BackEllipse src={props.oE} /> */}
+          <BackEllipse src={props.oE} />
           <ProductDetails>
             <ProductName style={{color: props.chocColor}}>
               {props.choc}
