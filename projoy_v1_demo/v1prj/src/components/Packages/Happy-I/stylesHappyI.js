@@ -46,6 +46,6 @@ export const Sub = styled.p`
   font-weight: 400;
   text-align: center;
   font-size: 18pt;
-  color: #f2a285;
+  color: #f97d87; //#f2a285
   margin: 2% 0 0 0;
 `;

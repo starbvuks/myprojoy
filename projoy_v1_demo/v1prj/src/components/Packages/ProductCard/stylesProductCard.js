@@ -11,7 +11,9 @@ export const ProductSection = styled.div`
   position: relative;
   display: flex;
   padding: 20px 0 20px 0;
-  background-color: ${(props) => (props.green ? "#98E577" : "#A0E2F2")};
+  background-color: ${(props) => (props.green = "#D5EEFF")};
+  background-color: ${(props) => (props.green = "#B6DBD0")};
+  background-color: ${(props) => (props.orange = "black")};
 `;
 
 export const ProductImg = styled.img`
