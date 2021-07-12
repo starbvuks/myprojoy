@@ -17,8 +17,8 @@ import blueEllipse from "../../../assets/images/iconpack-projoy/8.png";
 import greenEllipse from "../../../assets/images/iconpack-projoy/9.png";
 import orangeEllipse from "../../../assets/images/iconpack-projoy/10.png";
 
-import vanilla from "../../../assets/images/products/vanilla-transparent.png";
-import chocolate from "../../../assets/images/products/chocolate-transparent.png";
+import vanilla from "../../../assets/images/products/vanilla-shadow.png";
+import chocolate from "../../../assets/images/products/chocolate-shadow.png";
 import zerosug from "../../../assets/images/products/zerosugar-transparent.png";
 
 function HappyI() {
