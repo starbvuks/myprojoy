@@ -1,14 +1,20 @@
 [
   {
     "name": "Zero Sugar",
-    "ellipse": "../src/assets/images/iconpack-projoy/8.png",
-    "product_img": "../src/assets/images/products/vanilla-transparent.png",
-    "color": "#58907F"
+    "ellipse": "./products/8.png",
+    "product_img": "./products/zerosugar-transparent.png",
+    "color": "#5D98A6"
   },
   {
     "name": "Vanilla",
-    "ellipse": "../../src/assets/images/iconpack-projoy/8.png",
-    "product_img": "../../src/assets/images/products/vanilla-transparent.png",
+    "ellipse": "./products/9.png",
+    "product_img": "./products/vanilla-transparent.png",
     "color": "#58907F"
+  },
+  {
+    "name": "Chocolate",
+    "ellipse": "./products/10.png",
+    "product_img": "./products/chocolate-transparent.png",
+    "color": "#F2A285"
   }
 ]
