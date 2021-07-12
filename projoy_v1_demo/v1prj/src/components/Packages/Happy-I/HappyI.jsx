@@ -7,6 +7,7 @@ import {
   SpanBot,
   Title,
   Sub,
+  ProductSection,
 } from "./stylesHappyI.js";
 
 import ProductCard from "../ProductCard/ProductCard.jsx";
@@ -34,20 +35,22 @@ function HappyI() {
       <Sub>
         [ pick any <span style={{color: "#F97D87"}}>one</span> pack ]
       </Sub>
-      <ProductCard
-        vanilla="VANILLA"
-        choc="CHOCOLATE"
-        zerosug="ZERO SUGAR"
-        bE={blueEllipse}
-        oE={orangeEllipse}
-        gE={greenEllipse}
-        vanillaImg={vanilla}
-        chocImg={chocolate}
-        zerosugImg={zerosug}
-        vanColor="#D5EEFF"
-        chocColor="orange"
-        zerosugColor="#B6DBD0"
-      />
+      <ProductSection>
+        <ProductCard
+          vanilla="VANILLA"
+          choc="CHOCOLATE"
+          zerosug="ZERO SUGAR"
+          bE={blueEllipse}
+          oE={orangeEllipse}
+          gE={greenEllipse}
+          vanillaImg={vanilla}
+          chocImg={chocolate}
+          zerosugImg={zerosug}
+          zerosugColor="#5D98A6"
+          vanColor="#58907F"
+          chocColor="#F2A285"
+        />
+      </ProductSection>
     </Main>
   );
 }

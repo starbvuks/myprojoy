@@ -13,25 +13,31 @@ function ProductCard(props) {
   return (
     <div>
       <Main>
-        <ProductSection style={{backgroundColor: props.zerosugColor}}>
+        <ProductSection>
           <ProductImg src={props.zerosugImg} />
-          <BackEllipse src={props.bE} />
+          {/* <BackEllipse src={props.bE} /> */}
           <ProductDetails>
-            <ProductName>{props.zerosug}</ProductName>
+            <ProductName style={{color: props.zerosugColor}}>
+              {props.zerosug}
+            </ProductName>
           </ProductDetails>
         </ProductSection>
-        <ProductSection style={{backgroundColor: props.vanColor}}>
+        <ProductSection>
           <ProductImg src={props.vanillaImg} />
-          <BackEllipse src={props.gE} />
+          {/* <BackEllipse src={props.gE} /> */}
           <ProductDetails>
-            <ProductName green>{props.vanilla}</ProductName>
+            <ProductName style={{color: props.vanColor}}>
+              {props.vanilla}
+            </ProductName>
           </ProductDetails>
         </ProductSection>
-        <ProductSection style={{backgroundColor: props.chocColor}}>
+        <ProductSection>
           <ProductImg src={props.chocImg} />
-          <BackEllipse src={props.oE} />
+          {/* <BackEllipse src={props.oE} /> */}
           <ProductDetails>
-            <ProductName green>{props.choc}</ProductName>
+            <ProductName style={{color: props.chocColor}}>
+              {props.choc}
+            </ProductName>
           </ProductDetails>
         </ProductSection>
       </Main>

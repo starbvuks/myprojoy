@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Main = styled.div``;
+export const Main = styled.div`
+  background-color: ;
+`;
 
 export const Blue = styled.div`
   position: relative;
@@ -49,3 +51,5 @@ export const Sub = styled.p`
   color: #f97d87; //#f2a285
   margin: 2% 0 0 0;
 `;
+
+export const ProductSection = styled.div``;
