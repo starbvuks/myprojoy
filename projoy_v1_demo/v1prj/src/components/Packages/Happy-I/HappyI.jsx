@@ -54,7 +54,7 @@ function HappyI() {
       <TextContent>
         <Title>Probiotic Ready Mix</Title>
         <Sub>
-          [ pick any <span style={{color: "#F2DADA"}}>one</span> pack ]
+          [ pick any <span style={{color: "#5D98A6"}}>one</span> pack ]
         </Sub>
       </TextContent>
       {input &&

@@ -35,7 +35,7 @@ export const BlueBubble = styled.img`
 `;
 
 export const TextContent = styled.div`
-  background-color: #85a68e;
+  // background-color: #85a68e;
   margin-bottom: 15%;
 `;
 
@@ -44,7 +44,7 @@ export const Title = styled.p`
   font-weight: 700;
   text-align: center;
   font-size: 24pt;
-  color: #daf2ef;
+  color: #85a68e;
   padding: 10px;
   margin: 45% 0 0 0;
 `;
@@ -54,7 +54,7 @@ export const Sub = styled.p`
   font-weight: 400;
   text-align: center;
   font-size: 18pt;
-  color: #eaf2e6; //#f2a285
+  color: #5b566f; //#f2a285
   padding-bottom: 10px;
   margin: 0 0 0 0;
 `;
