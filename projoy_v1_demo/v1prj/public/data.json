@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Zero Sugar",
+    "ellipse": "../src/assets/images/iconpack-projoy/8.png",
+    "product_img": "../src/assets/images/products/vanilla-transparent.png",
+    "color": "#58907F"
+  },
+  {
+    "name": "Vanilla",
+    "ellipse": "../../src/assets/images/iconpack-projoy/8.png",
+    "product_img": "../../src/assets/images/products/vanilla-transparent.png",
+    "color": "#58907F"
+  }
+]
