@@ -12,11 +12,11 @@ export const NavbarContent = styled.div`
 `;
 
 export const StyledMenu = styled.img`
-  width: 30px;
-  padding: 12px 0 0 12px;
+  width: 40px;
+  padding: 20px 0 0 18px;
 `;
 
 export const StyledShoppingCart = styled.img`
-  padding: 12px 12px 0 0;
-  width: 30px;
+  width: 40px;
+  padding: 20px 18px 0 0;
 `;
