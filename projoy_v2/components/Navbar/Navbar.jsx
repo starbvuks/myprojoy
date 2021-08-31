@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuAlt3Icon as Menu } from "@heroicons/react/solid";
+import Menu from "./Menu/MenuTemplate";
 import { ShoppingBagIcon as Cart } from "@heroicons/react/outline";
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
           a healthy gut
         </span>
       </div>
-      <Menu className="w-7 h-7 m-6" />
+      <Menu />
     </div>
   );
 };
