@@ -14,7 +14,7 @@ const NavMenu = () => {
   return (
     <div>
       <Menu className="w-7 h-7 m-6" onClick={() => menuClick()} />
-      {isOpen ? <NavbarMenu menuClick={menuClick} /> : null}
+      {isOpen ? <NavbarMenu menuClick={menuClick} isOpen={isOpen} /> : null}
     </div>
   );
 };
