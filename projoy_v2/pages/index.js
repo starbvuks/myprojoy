@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
     </div>
   );

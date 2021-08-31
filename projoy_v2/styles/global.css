@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "MoreSugar";
+    src: url("/fonts/MoreSugar-Thin.woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "MoreSugar";
+    src: url("/fonts/MoreSugar-Regular.woff2");
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+  }
+}
