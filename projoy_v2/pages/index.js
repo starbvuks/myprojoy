@@ -5,7 +5,7 @@ import Landing2 from "../components/Landing/Landing2";
 
 export default function Home() {
   return (
-    <div className="w-full h-full bg-orange">
+    <div className="w-full h-full bg-primary">
       <div className="h-screen">
         <Navbar />
         <Landing />

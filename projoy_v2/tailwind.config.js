@@ -18,10 +18,12 @@ module.exports = {
         ...theme("colors"),
         primary: "#f2f2f2",
         orange: "#FFF1D6",
+        mustard: "#EEB65E",
         darkOrange: "#EE964B",
       }),
       textColor: (theme) => ({
         sunset: "#F5F3BB",
+        brightOrange: "#F37021",
       }),
     },
   },
