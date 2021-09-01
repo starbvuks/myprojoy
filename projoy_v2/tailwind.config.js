@@ -13,16 +13,17 @@ module.exports = {
       backgroundImage: (theme) => ({
         landing: "url('/img/landingBlue.svg')",
         landingOrange: "url('/img/landingOrange.svg')",
+        orangeBlob: "url('/img/orangeBlob.svg')",
       }),
       backgroundColor: (theme) => ({
         ...theme("colors"),
         primary: "#f2f2f2",
         orange: "#FFF1D6",
-        mustard: "#EEB65E",
-        darkOrange: "#EE964B",
+        brightOrange: "#F37021",
+        lightBlue: "#99C8C1",
       }),
       textColor: (theme) => ({
-        sunset: "#F5F3BB",
+        darkBlue: "#257E90",
         brightOrange: "#F37021",
       }),
     },

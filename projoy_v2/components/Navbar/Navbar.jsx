@@ -4,16 +4,12 @@ import { ShoppingBagIcon as Cart } from "@heroicons/react/outline";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between font-moresugar h-1/3">
-      <Cart className="w-7 h-7 m-6" />
-      <div className="flex flex-col items-center justify-center bg-mustard w-1/2 h-5/12 rounded-b-2xl">
-        <img src="/logo.svg" alt="dds" class="w-1/2" />
-        <span className="font-regular pt-7 text-2xl text-yellow-700">for</span>
-        <span className="font-medium text-2xl text-yellow-700">
-          a healthy gut
-        </span>
+    <div className="flex justify-between pt-5">
+      <img src="/logo.png" alt="dds" class="w-20 h-20 mx-3" />
+      <div className="flex items-center gap-4 mr-7">
+        <Cart className="w-8 h-8 m-6" />
+        <Menu />
       </div>
-      <Menu />
     </div>
   );
 };

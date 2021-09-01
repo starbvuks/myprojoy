@@ -12,8 +12,8 @@ const NavbarMenu = ({ isOpen, menuClick }) => {
         enterFrom="translate-x-full"
         enterTo="translate-x-0"
       >
-        <Exit className="text-yellow-100 w-1/6" onClick={() => menuClick()} />
-        <div className="flex flex-col gap-y-4 mt-10 font-poppins font-bold text-xl text-yellow-100">
+        <Exit className="text-darkBlue w-1/6" onClick={() => menuClick()} />
+        <div className="flex flex-col gap-y-4 mt-10 font-poppins font-bold text-xl text-darkBlue">
           <span>About</span>
           <span>Story</span>
           <span>Science</span>
