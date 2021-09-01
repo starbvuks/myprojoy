@@ -23,6 +23,7 @@ module.exports = {
         lightBlue: "#99C8C1",
       }),
       textColor: (theme) => ({
+        primary: "#f2f2f2",
         darkBlue: "#257E90",
         brightOrange: "#F37021",
       }),

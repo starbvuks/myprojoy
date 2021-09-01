@@ -11,7 +11,6 @@ export default function Home() {
         <Landing />
         <Landing2 />
       </div>
-      <Landing2 />
     </div>
   );
 }
