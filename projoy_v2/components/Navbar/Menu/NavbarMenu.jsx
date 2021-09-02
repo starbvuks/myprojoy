@@ -13,10 +13,10 @@ const NavbarMenu = ({ isOpen, menuClick }) => {
         enterTo="translate-x-0"
       >
         <Exit className="text-darkBlue w-1/6" onClick={() => menuClick()} />
-        <div className="flex flex-col gap-y-4 mt-10 font-poppins font-bold text-xl text-darkBlue">
+        <div className="flex flex-col divide-solid divide-y-2 gap-y-3 mt-10 font-poppins font-bold text-xl text-darkBlue">
           <span>About</span>
-          <span>Story</span>
-          <span>Science</span>
+          <span className="pt-3">Story</span>
+          <span className="pt-3">Science</span>
         </div>
       </Transition.Child>
     </Transition>

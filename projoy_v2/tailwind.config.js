@@ -27,6 +27,9 @@ module.exports = {
         darkBlue: "#257E90",
         brightOrange: "#F37021",
       }),
+      divideColor: (theme) => ({
+        darkBlue: "#257E90",
+      }),
     },
   },
   variants: {
