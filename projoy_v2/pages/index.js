@@ -9,8 +9,8 @@ export default function Home() {
       <Navbar />
       <div className="h-full bg-orangeBlob bg-local bg-no-repeat bg-cover bg-center">
         <Landing />
-        <Landing2 />
       </div>
+        <Landing2 />
     </div>
   );
 }

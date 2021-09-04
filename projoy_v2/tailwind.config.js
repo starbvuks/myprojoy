@@ -11,8 +11,6 @@ module.exports = {
 
     extend: {
       backgroundImage: (theme) => ({
-        landing: "url('/img/landingBlue.svg')",
-        landingOrange: "url('/img/landingOrange.svg')",
         orangeBlob: "url('/img/orangeBlob.svg')",
       }),
       backgroundColor: (theme) => ({
