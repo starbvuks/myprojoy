@@ -17,7 +17,7 @@ const NavMenu = () => {
       <Menu className="w-8 h-8" onClick={() => menuClick()} />
       <Transition
         show={isOpen}
-        class="flex flex-col bg-lightBlue fixed top-0 right-0 p-5 z-20 w-1/2 h-full transition ease-in-out duration-300"
+        className="flex flex-col bg-lightBlue fixed top-0 right-0 p-5 z-20 w-1/2 h-full transition ease-in-out duration-300"
         enter="transition ease-in-out duration-700"
         enterFrom="translate-x-full"
         enterTo="translate-x-0"

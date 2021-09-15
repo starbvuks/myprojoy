@@ -5,7 +5,7 @@ const Landing = () => {
     <div className="w-full h-full">
       <div className="flex flex-col items-center justify-center font-josefin mt-5">
         <img src="/img/triopng.png" alt="trio" className="w-3/4 mr-10" />
-        <div className="flex flex-col font-bold text-center text-yellow-200 text-5xl">
+        <div className="flex flex-col font-bold text-center text-yellow-200 text-4xl">
           <span>
             Easier Digestion
             <span className="font-semibold pl-2"></span>
