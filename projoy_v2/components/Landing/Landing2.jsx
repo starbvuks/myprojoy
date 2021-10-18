@@ -33,7 +33,7 @@ const Landing2 = () => {
             background: `radial-gradient(circle, ${product.color} 20%, rgba(242,242,242,1) 90%)`,
           }}
         >
-          <img src={product.img} alt="vanilla" className="rotate-45" />
+          <img src={product.img} alt="vanilla" className="rotate-45 px-10" />
           <div className="flex flex-col items-end font-moresugar text-4xl w-full justify-end pr-8 -mt-32">
             <span className="font-semibold">{product.name}</span>
             <span className="text-xl">300gms</span>

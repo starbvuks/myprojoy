@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="w-full h-full bg-primary">
       <Navbar />
-      <div className="h-full bg-orangeBlob bg-local bg-no-repeat bg-cover bg-center">
+      <div className="h-full bg-local bg-no-repeat bg-cover bg-center">
         <Landing />
       </div>
-        <Landing2 />
+      <Landing2 />
     </div>
   );
 }
